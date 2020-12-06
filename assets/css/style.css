@@ -1,0 +1,159 @@
+* {}
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+	font-family: Lora, 'Lato', 'Oswald', sans-serif;
+} */
+
+
+/* Navbar Custom */
+.navbar {
+	font-size: 18px;
+	border-bottom: 4px solid #6e276b;
+	font-family: 'Open Sans', 'Raleway', sans-serif;
+	font-weight: 600;
+}
+
+.navbar a {
+	font-weight: 600;
+	color: #4C545E;
+}
+
+a:hover {
+	color: #300099;
+	text-decoration: none;
+}
+
+.nav-item a.nav-link:hover {
+	display: block;
+	background-color: #f1f1f1;
+	color: crimson;
+}
+
+.home {
+	border-top: 4px solid #f1f1f1;
+}
+
+
+/* Header Custom */
+.heading {
+	padding-top: 10px;
+	color: crimson;
+	margin-bottom: 40px;
+}
+
+.heading2 {
+	padding-top: 10px;
+	color: mediumspringgreen;
+	margin-bottom: 40px;
+}
+
+.heading3 {
+	padding-top: 10px;
+	color: mediumaquamarine;
+	margin-bottom: 40px;
+}
+
+.heading4 {
+	padding-top: 10px;
+	color: orange;
+	margin-bottom: 40px;
+}
+
+.headborder {
+	border-top: 4px solid crimson;
+	border-bottom: 1px solid crimson;
+}
+
+.headborder2 {
+	border-bottom: 4px solid mediumspringgreen;
+	border-bottom: 1px solid mediumspringgreen;
+}
+
+.headborder3 {
+	border-bottom: 4px solid mediumaquamarine;
+	border-bottom: 1px solid mediumaquamarine;
+}
+
+.headborder4 {
+	border-bottom: 4px solid orange;
+	border-bottom: 1px solid orange;
+}
+
+.konten {
+	width: 100%;
+	margin: 300px;
+}
+
+.hugekonten-img {
+	height: 350px;
+	width: 550px;
+}
+
+.konten-img {
+	height: 150px;
+	width: 250px;
+}
+
+
+/* Other CUstom */
+.card-columns {
+	@include media-breakpoint-only(lg) {
+		column-count: 4;
+	}
+
+	@include media-breakpoint-only(xl) {
+		column-count: 5;
+	}
+}
+
+.carousel-custom {
+	width: 100%;
+}
+
+.carousel-inner {
+	width: 100%;
+	max-height: 200px !important;
+}
+
+/* Media Only Custom */
+@media only screen and (max-width: 992px) {
+	* {
+		color: #4C545E;
+	}
+
+	.show-mobile {
+		display: none;
+		margin: 0 auto 13% auto;
+	}
+
+	.hide-mobile {
+		display: none;
+	}
+
+	.navres {
+		font-weight: 500;
+		background-color: #f1f1f1;
+		color: #df9a24;
+	}
+
+}
+
+@media only screen and (min-width: 992px) {
+	.show-desktop {
+		display: block;
+		margin: 0 auto 13% auto;
+	}
+
+	.hide-desktop {
+		display: none;
+	}
+}
