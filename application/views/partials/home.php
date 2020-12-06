@@ -95,27 +95,35 @@
             </div>
         </div>
     </div>
-    <div class="mt-2 heading2">
-        <div class="headborder2">
-            <h4 class="my-2"><b>NATURE</b> <i class="fas fa-angle-right"></i></h4>
-        </div>
-    </div>
-
-    <div class="nature-head-img card mb-8">
-        <div class="row no-gutters">
-            <div class="col-md-7">
-            <img src="<?php echo base_url() ?>/assets/img/r3.jpg" class="card-img" alt="...">
+    <div class="nature">
+        <div class="mt-2 heading2">
+            <div class="headborder2">
+                <h4 class="my-2"><b>NATURE</b> <i class="fas fa-angle-right"></i></h4>
             </div>
-            <div class="col-md-5">
-                <div class="card-body">
-                    <h3 class="card-title">Card title</h3>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+
+        <div class="nature-head-img card mb-8">
+            <div class="row no-gutters">
+                <div class="col-md-7">
+                <img src="<?php echo base_url() ?>/assets/img/r3.jpg" class="card-img" alt="...">
+                </div>
+                <div class="col-md-5">
+                    <div class="card-body">
+                        <h3 class="card-title">Card title</h3>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="<?php echo base_url() ?>/assets/img/r3.jpg" class="card-img" alt="...">
+                <h3 class="card-title">Card title</h3>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
     </div>
-
 
     <div class="mt-2 heading3">
         <div class="headborder3">

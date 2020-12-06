@@ -102,6 +102,14 @@ a:hover {
 }
 
 /* Nature Custom */
+.nature {
+	background-color: #f1f1f1;
+}
+
+* {
+	background-color: #f1f1f1;
+}
+
 .nature-head-img {
 	border: none;
 	border-radius: 0px;
@@ -110,7 +118,7 @@ a:hover {
 
 
 /* Other Custom */
-.card-columns {
+/* .card-columns {
 	@include media-breakpoint-only(lg) {
 		column-count: 4;
 	}
@@ -118,7 +126,7 @@ a:hover {
 	@include media-breakpoint-only(xl) {
 		column-count: 5;
 	}
-}
+} */
 
 .carousel-custom {
 	width: 100%;
